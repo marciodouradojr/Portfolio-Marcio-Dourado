@@ -256,15 +256,21 @@
             <iframe class="img-about" src="https://embed.lottiefiles.com/animation/73173"></iframe>
             </div>
             </div>
-            <div class="px-6 py-2">
+            <div class="item-about px-6 py-1">
+                <img src="./images/coffee.png" alt="">
                 <ul>
                     <li class="mb-3">
                         Graduado em Análise e Desenvolvimento de Sistemas
                     </li>
-                    <li>
-                        Apaixonado por dar vida ao design
+                 </ul>
+            </div>
+            <div class="item-about px-6 py-1">
+                <img src="./images/coffee.png" alt="">
+                <ul>
+                    <li class="mb-3">
+                        Apaixonado por criar interfaces WEB
                     </li>
-                </ul>
+                 </ul>
             </div>
             <div class="border-gray"></div>
         </section>
@@ -381,7 +387,7 @@
         <!--      FOOTER      -->
         
         
-        <footer class="end">
+        <footer class="end" id="section-end">
     
             <div class="logo-end">
                 <a href="">
@@ -417,28 +423,28 @@
                 
                 tl.from('.menu-1', {
                     duration: 1,
-                    y: 500,
+                    y: 50,
                     opacity: 0, 
                     ease: 'power3.out' 
                     
                 }, '-=0.8')
                 tl.from('.menu-2', {
                     duration: 1,
-                    y: 500,
+                    y: 50,
                     opacity: 0,  
                     ease: 'power3.out'
                     
                 }, '-=0.8')
                 tl.from('.menu-3', {
                     duration: 1,
-                    y: 500,
+                    y: 50,
                     opacity: 0,  
                     ease: 'power3.out'
                     
                 }, '-=0.8')
                 tl.from('.menu-4', {
                     duration: 1,
-                    y: 500,
+                    y: 50,
                     opacity: 0,  
 
                     ease: 'power3.out'
@@ -449,13 +455,13 @@
                     duration: 1,
                     y: 300,
                     opacity: 0,
-                    stagger: {each: 0.2},
+                    
                     ease: 'power3.out'
                 }, '-=0.8')
 
                 gsap.from("#section-works div", {
                 duration: 1.5,
-                y:200,
+                y:100,
                 opacity: 0,   
                 stagger: {each: 0.3},
                 ease: 'power3.out',
@@ -469,7 +475,7 @@
             });
                 gsap.from("#section-about div", {
                     duration: 1.5,
-                    y:200,
+                    y:100,
                     opacity: 0,   
                     stagger: {each: 0.3},
                     ease: 'power3.out',
@@ -484,7 +490,7 @@
 
                 gsap.from("#section-contact div", {
                 duration: 1.5,
-                y:200,
+                y:100,
                 opacity: 0,   
                 stagger: {each: 0.3},
                 ease: 'power3.out',
@@ -496,6 +502,20 @@
                 }
 
             });
+
+                gsap.from("#section-end div", {
+                        duration: 1.5,
+                        y:100,
+                        opacity: 0,   
+                        
+                        ease: 'power3.out',
+                        
+                        scrollTrigger: {
+                            trigger: "#section-end",
+                            
+                        }
+
+                    });
             })
 
         </script>   

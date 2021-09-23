@@ -302,16 +302,24 @@ body, html {
   .container-about .about-top .img-about {
     display: none;
   }
-  .container-about ul {
-    list-style-image: url("/images/coffee.png");
+  .container-about .item-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .container-about ul li {
+  .container-about .item-about li {
     font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
     color: rgba(220, 220, 220, 0.637);
+    list-style: none;
     -webkit-transition: .5s ease;
     transition: .5s ease;
   }
-  .container-about ul li:hover {
+  .container-about .item-about li:hover {
     -webkit-transform: translate(3%);
             transform: translate(3%);
     cursor: pointer;
@@ -737,17 +745,24 @@ body, html {
   .container-about .about-top .img-about {
     display: none;
   }
-  .container-about ul {
-    list-style-image: url("/images/coffee.png");
+  .container-about .item-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .container-about ul li {
+  .container-about .item-about li {
     font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
     color: rgba(220, 220, 220, 0.637);
-    list-style-type: circle;
+    list-style: none;
     -webkit-transition: .5s ease;
     transition: .5s ease;
   }
-  .container-about ul li:hover {
+  .container-about .item-about li:hover {
     -webkit-transform: translate(3%);
             transform: translate(3%);
     cursor: pointer;
@@ -1140,7 +1155,7 @@ body, html {
             transform: translate(-50%, -50%) translate3d(-600px, 0, 0) skewX(50deg);
   }
   .container-about {
-    max-width: 960px;
+    max-width: 720px;
     height: 100%;
     margin: 0 auto;
   }
@@ -1169,17 +1184,24 @@ body, html {
   .container-about .about-top .img-about {
     display: none;
   }
-  .container-about ul {
-    list-style-image: url("/images/coffee.png");
+  .container-about .item-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .container-about li {
+  .container-about .item-about li {
     font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
     color: rgba(220, 220, 220, 0.637);
-    list-style-type: circle;
+    list-style: none;
     -webkit-transition: .5s ease;
     transition: .5s ease;
   }
-  .container-about li:hover {
+  .container-about .item-about li:hover {
     -webkit-transform: translate(3%);
             transform: translate(3%);
     cursor: pointer;
@@ -1649,18 +1671,24 @@ body, html {
     width: 500px;
     height: 400px;
   }
-  .container-about ul {
-    list-style-image: url("/images/coffee.png");
+  .container-about .item-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .container-about li {
-    margin-left: 30px;
+  .container-about .item-about li {
     font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
     color: rgba(220, 220, 220, 0.637);
-    list-style-type: circle;
+    list-style: none;
     -webkit-transition: .5s ease;
     transition: .5s ease;
   }
-  .container-about li:hover {
+  .container-about .item-about li:hover {
     -webkit-transform: translate(3%);
             transform: translate(3%);
     cursor: pointer;

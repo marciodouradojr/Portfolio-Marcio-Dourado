@@ -320,16 +320,23 @@ header{
   
     }
 
+    .item-about{
+        
+        display: flex;
+        align-items: center;
+        
+        
     ul{
-        list-style-image: url('/images/coffee.png');
         
+        
+    }
     li{
+        
         font-size: 20px;
-        
+        margin-top: 25px;
+        margin-left: 10px;
         color: rgba(220, 220, 220, 0.637);
-        
-        
-        
+        list-style: none;
         
 
         transition: .5s ease;
@@ -340,7 +347,7 @@ header{
         }
 
     }
-}
+    }
     
 }
 
@@ -780,14 +787,23 @@ header{
   
     }
 
-    ul{
-        list-style-image: url('/images/coffee.png');
-    
-    li{
-        font-size: 20px;
+    .item-about{
+            
+        display: flex;
+        align-items: center;
         
+        
+    ul{
+        
+        
+    }
+    li{
+        
+        font-size: 20px;
+        margin-top: 25px;
+        margin-left: 10px;
         color: rgba(220, 220, 220, 0.637);
-        list-style-type: circle;
+        list-style: none;
         
 
         transition: .5s ease;
@@ -798,7 +814,7 @@ header{
         }
 
     }
-}
+    }
     
 }
 
@@ -1192,14 +1208,14 @@ header{
 
 
 .container-about{
-    max-width: 960px;
+    max-width: 720px;
     height: 100%;
     margin: 0 auto;
   //  border: red solid 1px;
 
     .about-title{
         width: 100%;
- //       border: yellow solid;
+   //     border: yellow solid;
 
         h5{
             font-size: 24px;
@@ -1230,14 +1246,23 @@ header{
   
     }
 
+    .item-about{
+            
+        display: flex;
+        align-items: center;
+        
+        
     ul{
-        list-style-image: url('/images/coffee.png')
+        
+        
     }
     li{
-        font-size: 20px;
         
+        font-size: 20px;
+        margin-top: 25px;
+        margin-left: 10px;
         color: rgba(220, 220, 220, 0.637);
-        list-style-type: circle;
+        list-style: none;
         
 
         transition: .5s ease;
@@ -1248,8 +1273,11 @@ header{
         }
 
     }
+    }
     
 }
+    
+
 
 
 .container-contact{
@@ -1754,17 +1782,24 @@ header{
                 }
       
         }
-    
+
+        .item-about{
+            
+            display: flex;
+            align-items: center;
+            
+            
         ul{
-            list-style-image: url('/images/coffee.png')
+            
             
         }
         li{
-            margin-left: 30px;
-            font-size: 20px;
             
+            font-size: 20px;
+            margin-top: 25px;
+            margin-left: 10px;
             color: rgba(220, 220, 220, 0.637);
-            list-style-type: circle;
+            list-style: none;
             
     
             transition: .5s ease;
@@ -1775,8 +1810,12 @@ header{
             }
     
         }
-        
+        }
+    
+
     }
+        
+    
     
     
     .container-contact{
