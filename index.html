@@ -408,18 +408,13 @@
 
             document.addEventListener('DOMContentLoaded', () => {
                 var tl = gsap.timeline();
-                tl.from('.bg-hero', {
+                tl.from('.menu-logo', {
                     duration: 1,
                     y: 500,
                     opacity: 0,  
                     delay: 0.5
                 })
-                tl.from('.menu-logo', {
-                    duration: 1,
-                    y: 500,
-                    opacity: 0,  
-                    
-                }, '-=0.8')
+                
                 tl.from('.menu-1', {
                     duration: 1,
                     y: 500,
