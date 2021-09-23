@@ -154,7 +154,6 @@ body, html {
     max-width: 540px;
     margin: 0 auto;
     padding-top: 120px;
-    border: blue solid;
     height: 100vh;
   }
   .container-hero .hero-top {
@@ -306,14 +305,13 @@ body, html {
   .container-about ul {
     list-style-image: url("/images/coffee.png");
   }
-  .container-about li {
+  .container-about ul li {
     font-size: 20px;
     color: rgba(220, 220, 220, 0.637);
-    list-style-type: circle;
     -webkit-transition: .5s ease;
     transition: .5s ease;
   }
-  .container-about li:hover {
+  .container-about ul li:hover {
     -webkit-transform: translate(3%);
             transform: translate(3%);
     cursor: pointer;
@@ -742,14 +740,14 @@ body, html {
   .container-about ul {
     list-style-image: url("/images/coffee.png");
   }
-  .container-about li {
+  .container-about ul li {
     font-size: 20px;
     color: rgba(220, 220, 220, 0.637);
     list-style-type: circle;
     -webkit-transition: .5s ease;
     transition: .5s ease;
   }
-  .container-about li:hover {
+  .container-about ul li:hover {
     -webkit-transform: translate(3%);
             transform: translate(3%);
     cursor: pointer;
