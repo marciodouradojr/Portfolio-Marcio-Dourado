@@ -47,7 +47,7 @@ header{
     z-index: 998;
     background-color: transparent;
     transition: 1s ease;
-    
+      
 }
 
 .bg-header{
@@ -321,13 +321,15 @@ header{
     }
 
     ul{
-        list-style-image: url('./images/coffee.png')
-    }
+        list-style-image: url('/images/coffee.png');
+        
     li{
         font-size: 20px;
         
         color: rgba(220, 220, 220, 0.637);
-        list-style-type: circle;
+        
+        
+        
         
 
         transition: .5s ease;
@@ -338,6 +340,7 @@ header{
         }
 
     }
+}
     
 }
 
@@ -778,8 +781,8 @@ header{
     }
 
     ul{
-        list-style-image: url('./images/coffee.png')
-    }
+        list-style-image: url('/images/coffee.png');
+    
     li{
         font-size: 20px;
         
@@ -795,6 +798,7 @@ header{
         }
 
     }
+}
     
 }
 
@@ -1227,7 +1231,7 @@ header{
     }
 
     ul{
-        list-style-image: url('./images/coffee.png')
+        list-style-image: url('/images/coffee.png')
     }
     li{
         font-size: 20px;
@@ -1752,7 +1756,7 @@ header{
         }
     
         ul{
-            list-style-image: url('./images/coffee.png')
+            list-style-image: url('/images/coffee.png')
             
         }
         li{
